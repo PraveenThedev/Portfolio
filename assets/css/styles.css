@@ -475,7 +475,7 @@ img {
 /*==================== SKILLS ====================*/
 
 .skills__container {
- grid-template-columns: repeat(2, 1fr);
+ grid-template-columns: repeat(1, 1fr);
 }
 
 .skills__header {
@@ -1129,6 +1129,10 @@ img {
     text-align: center;
   }
 
+  .skills__container {
+ grid-template-columns: repeat(1, 1fr);
+}
+
 }
 
 /* For medium devices */
@@ -1162,6 +1166,10 @@ img {
     grid-template-columns: .6fr;
     justify-content: center;
   }
+
+   .skills__container {
+ grid-template-columns: repeat(1, 1fr);
+}
 
 }
 
@@ -1348,6 +1356,9 @@ img {
     margin-top: 4.5rem;
   }
 
+    .skills__container {
+ grid-template-columns: repeat(2, 1fr);
+}
 
 }
 
@@ -1399,6 +1410,9 @@ img {
   .contact__inputs {
     grid-template-columns: repeat(2, 1fr);
   }
+    .skills__container {
+ grid-template-columns: repeat(2, 1fr);
+}
 
 }
 
