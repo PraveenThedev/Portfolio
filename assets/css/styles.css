@@ -794,7 +794,7 @@ img {
 
 .portfolio__img {
   width: 265px;
-  border-radius: .5rem;
+  border-radius: 2.5rem;
   justify-self: center;
 }
 
@@ -1502,6 +1502,7 @@ img {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   animation: slideDown 0.3s ease;
   font-family: "Poppins", sans-serif;
+  background-color: var(--container-color)
 }
 
 /* Close button */
@@ -1524,12 +1525,12 @@ img {
 .modal-content h4 {
   margin-top: 1rem;
   margin-bottom: 0.5rem;
-  color: #333;
+  /* color: #333; */
 }
 
 .modal-content p {
   margin: 0.5rem 0;
-  color: #555;
+  /* color: #555; */
 }
 
 .modal-content ul {
