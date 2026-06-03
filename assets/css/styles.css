@@ -470,6 +470,7 @@ img {
 .about__buttons {
   display: flex;
   justify-content: center;
+  gap: 12px;
 }
 
 /*==================== SKILLS ====================*/
